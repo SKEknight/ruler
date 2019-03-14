@@ -1,0 +1,23 @@
+.copy{
+    position: relative;
+    background-color: #9E9E9E;
+    height: auto;
+    min-height: 100%;
+    padding-bottom:1.5em; 
+    border: solid #9E9E9E 1px;
+    border-radius: 15px;
+    z-index: 0;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    background-color: #9E9E9E;
+    margin-top: -1.5em;
+    font-size: 1em;
+    color: #fff;
+    height: 1.5em;
+    line-height: 1.5em;
+    border: solid #424242 1px;
+    border-radius: 15px;
+    z-index: 0;
+}

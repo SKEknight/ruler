@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    position: relative;
+width: 100%;
+}
+
+div#background>img {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.welcome{
+    width: 6em;
+    height: 2em;
+    line-height: 2em;
+    font-size: 2em;
+    /* background-color: #4e32c9f3; */
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    margin-left: -3em;
+    /* border-radius: 30px; */
+    text-align: center;
+}

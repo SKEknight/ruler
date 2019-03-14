@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.Wrapper>div>img {
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+}
+
+.first>a>div>img {
+    width: 1em;
+    height: 1em;
+}
+
+.first>.qq>div {
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    color: #424242;
+}
+
+.first>.sup>div {
+    position: absolute;
+    left: 40%;
+    top: 73%;
+    color: #424242;
+}
+
+.first>.tel>div {
+    position: absolute;
+    left: 40%;
+    top: 87%;
+    color: #424242;
+}
+
+.Wrapper>.second {
+    position: relative;
+}
+
+.bbs>div {
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 1.5em;
+    width: 5em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #a6d9e2;
+    color: #424242;
+}
+.help>div {
+    position: absolute;
+    top: 26%;
+    right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 1.5em;
+    width: 5em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #a6d9e2;
+    color: #424242;
+}
+.what{
+    display: inline-block;
+    font-size: 1em;
+    position: absolute;
+    left:40%;
+    bottom: 8%;
+}
+.Wrapper>.third{
+    position: relative;
+}
+.help2{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 1.5em;
+    width: 5em;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#535353;
+    color: #ffffff;
+}

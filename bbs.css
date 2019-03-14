@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+list-style: none;
+}
+
+.background {
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+
+div.background>img {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+.date>div,
+.myinfo>div,
+.tobbs>div,
+.tohelp>div {
+    height: 3em;
+    width: 10em;
+}
+
+.date>div>img,
+.myinfo>div>img,
+.tobbs>div>img,
+.tohelp>div>img {
+    width: 3em;
+    height: 3em;
+}
+
+.date>div>.text,
+.myinfo>div>.text,
+.tobbs>div>.text,
+.tohelp>div>.text {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 2.5em;
+    width: 5em;
+    height: 2em;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.tohelp>div>.text {
+    width: 2em !important;
+}
+
+div.pos1 {
+    width: 7em !important;
+}
+
+.pos1 {
+    position: absolute;
+    bottom: 31%;
+    left: 15%;
+}
+
+.pos2 {
+    position: absolute;
+    bottom: 31%;
+    right: 10%;
+}
+
+.pos3 {
+    position: absolute;
+    bottom: 42%;
+    right: 10%;
+}
+
+.pos4 {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}
+
+ul>li>a>img {
+    width: 2em;
+    height: 2em;
+}
+
+ul>li {
+    float: left;
+    margin-left: 0.5em;
+}
+
+div>ul {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+.Wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}

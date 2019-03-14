@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pay>img{
+    width: 100%;
+    position: relative;
+}
+.back{
+    border: solid #424242 1px;
+    border-radius: 10px;
+    height: 2em;
+    width: 5em;
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    line-height: 2em;
+}
+a>div{
+    position: absolute;
+    bottom: 32.5%;
+    left: 50%;
+    margin-left: -2.5em;
+}
